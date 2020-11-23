@@ -28,11 +28,11 @@ Il permet de faire tout type de vérification sur les composants de notre code.
 **3. A quoi sert `toEqual` ? Trouvez 5 autres fonctions similaires.**
 
 Il permet de vérifier l'égalité entre deux variables. Mais nous pouvons aussi utiliser aussi :
-- ```js if(val1 === val2){}```
-- ```js .toMatch()```
-- ```js .toStrictEqual()```
-- ```js .toContainEqual()```
-- ```js .toMatchObject()```
+- ```if(val1 === val2){}```
+- ```.toMatch()```
+- ```.toStrictEqual()```
+- ```.toContainEqual()```
+- ```.toMatchObject()```
 
 **4. Trouver le rôle des fonctions `beforeEach` et `afterEach`. En déduire le rôle de la fonction `describe`.**
 
