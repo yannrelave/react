@@ -41,7 +41,7 @@ Il permet de vérifier l'égalité entre deux variables. Mais nous pouvons aussi
 
 **5. La fonction `console.log` est "mocké". Expliquez ce que cela signifie et comment peut-on utiliser des mocks ?**
 
-Cela permet de voir ce que la fonction va faire avant de faire avant d'être exécuté. 
+Cela permet de voir ce que la fonction va faire avant d'être exécutée. 
 
 **6. Imaginez d'autres cas ou il s'avère utile de mocker une fonction.**
 
