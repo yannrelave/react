@@ -15,7 +15,7 @@ Répondre aux questions en modifiant directement ce fichier.
 
 **1. A quoi correspond la première ligne ? Connaissez-vous (ou sinon cherchez sur Internet !) une autre manière d'importer des dépendances.**
 
-La première ligne permet de récupérer les dépendances, envoyer par le fichier javascript.js, dans des variables pour le fichier javascript.js.
+La première ligne permet de récupérer les dépendances, envoyées par le fichier javascript.js, dans des variables pour le fichier javascript.js.
 Il y a une autre manière d'importer les dépendances, c'est d'utiliser import : 
 ```js
 import javascript.js;
