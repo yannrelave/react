@@ -15,17 +15,24 @@ Répondre aux questions en modifiant directement ce fichier.
 
 **1. A quoi correspond la première ligne ? Connaissez-vous (ou sinon cherchez sur Internet !) une autre manière d'importer des dépendances.**
 
-### La première ligne permet de récupérer les dépendances, envoyer par le fichier javascript.js, dans des variables pour le fichier javascript.js.
-### Il y a une autre manière d'importer les dépendances, c'est d'utiliser import : 
+La première ligne permet de récupérer les dépendances, envoyer par le fichier javascript.js, dans des variables pour le fichier javascript.js.
+Il y a une autre manière d'importer les dépendances, c'est d'utiliser import : 
 ```js
 import javascript.js;
 ```
 
 **2. Expliquez le rôle de la fonction `expect`.**
 
-### 
+Il permet de faire tout type de vérification sur les composants de notre code.
 
 **3. A quoi sert `toEqual` ? Trouvez 5 autres fonctions similaires.**
+
+Il permet de vérifier l'égalité entre deux variables. Mais nous pouvons aussi utiliser aussi :
+- ```js if(val1 === val2){}```
+- ```js .toMatch()```
+- ```js .toStrictEqual()```
+- ```js .toContainEqual()```
+- ```js .toMatchObject()```
 
 **4. Trouver le rôle des fonctions `beforeEach` et `afterEach`. En déduire le rôle de la fonction `describe`.**
 
