@@ -36,6 +36,13 @@ Il permet de vérifier l'égalité entre deux variables. Mais nous pouvons aussi
 
 **4. Trouver le rôle des fonctions `beforeEach` et `afterEach`. En déduire le rôle de la fonction `describe`.**
 
+`beforeEach` permet de faire une action avant chaque appel de la fonction. `afterEach` permet de faire une action après chaque appel de la fonction.
+`describe` permet de décrire les tests.
+
 **5. La fonction `console.log` est "mocké". Expliquez ce que cela signifie et comment peut-on utiliser des mocks ?**
 
+Cela permet de voir ce que la fonction va faire avant de faire avant d'être exécuté. 
+
 **6. Imaginez d'autres cas ou il s'avère utile de mocker une fonction.**
+
+Les "mocks" sont utiles pour vérifier la bonne utilisation des dépendances externes, ainsi que s'assurer que la fonction peut gérer différentes réponses des dépendances externes.

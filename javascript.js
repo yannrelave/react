@@ -140,6 +140,15 @@ const spirale = (n) => {
  *              [11, 16, 15, 6],
  *              [10,  9,  8, 7]]
  */
+ let monTab = [];
+  for (let i = 1; i <= n; i++) {
+    let tabTmp = [];
+    for (let j = 1; j <= n; j++) {
+      tabTmp.push(j);
+    }
+    monTab.push(tabTmp);
+  }
+  return monTab;
 };
 
 
@@ -176,7 +185,7 @@ const puissance4 = (grid) => {
 	let lignes = grid.length;
 	console.log(grid[0][4]);
 	
-	for{let i = 0; i< lignes; i++}{
+	for(let i = 0; i< lignes; i++){
 		for(let j = 0; j < colonnes; j++){
 			
 		}
